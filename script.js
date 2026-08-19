@@ -1,11 +1,1 @@
-function sendLead(e){
-  e.preventDefault();
-  const name=document.getElementById('name').value.trim();
-  const phone=document.getElementById('phone').value.trim();
-  const text=encodeURIComponent(`Здравствуйте! Заявка с сайта D.Academy@tr\nИмя: ${name}\nТелефон: ${phone}`);
-  // Перед запуском замените номер ниже на WhatsApp школы в международном формате.
-  const whatsappNumber="";
-  if(whatsappNumber){ window.open(`https://wa.me/${whatsappNumber}?text=${text}`,"_blank"); }
-  else { alert("Спасибо! Форма работает. Перед запуском подключим WhatsApp школы."); }
-  return false;
-}
+function sendLead(e){e.preventDefault();const n=document.getElementById("name").value.trim(),a=document.getElementById("age").value.trim(),p=document.getElementById("phone").value.trim();const text=encodeURIComponent(`Здравствуйте! Хочу консультацию D.Academy@tr.\nРодитель: ${n}\nВозраст ребёнка: ${a}\nКонтакт: ${p}`);const whatsappNumber="";if(whatsappNumber){window.open(`https://wa.me/${whatsappNumber}?text=${text}`,"_blank")}else{alert("Заявка готова. Следующим шагом подключим WhatsApp школы.")}return false}
