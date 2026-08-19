@@ -1,18 +1,26 @@
-# FromTur Logistics & Export — Website V1
+# FROMTUR Logistics V1 — запуск
 
-Готовый статический сайт для GitHub Pages.
+Готовый статический сайт без сборщика и без зависимостей.
 
-## Публикация
-1. Создайте новый отдельный репозиторий GitHub (например `fromtur-logistics`).
-2. Загрузите все файлы из этой папки в корень репозитория.
-3. Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
-4. Не загружайте ZIP целиком в репозиторий — сначала распакуйте его.
+## GitHub Pages
+1. Распакуйте ZIP.
+2. Загрузите `index.html`, `style.css`, `script.js` в корень репозитория GitHub.
+3. GitHub → Settings → Pages.
+4. Source: Deploy from a branch.
+5. Branch: `main`, folder: `/ (root)` → Save.
+6. Подождите 1–3 минуты и откройте адрес GitHub Pages.
+
+## Что уже работает
+- адаптивный premium-дизайн;
+- направления, услуги, доверие, процесс и FAQ;
+- контакты FROMTUR;
+- форма расчёта: формирует готовое письмо на meiralysuleyman@fromturlojistik.com;
+- телефонные и Instagram-ссылки;
+- без фотографий: визуал построен на типографике, сетке и графике.
 
 ## Контакты в версии
-- +90 541 909 85 89
-- +90 537 350 12 73
-- meiralysuleyman@fromturlojistik.com
-- https://fromturlogistics.com
-- Instagram: @fromtur.logisticss
-
-Форма расчёта формирует готовое письмо менеджеру. Цены и сроки не выдуманы: расчёт запрашивается индивидуально.
++90 541 909 85 89
++90 537 350 12 73
+meiralysuleyman@fromturlojistik.com
+https://fromturlogistics.com
+Instagram: @fromtur.logisticss
